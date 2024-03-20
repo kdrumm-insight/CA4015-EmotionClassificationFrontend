@@ -1,0 +1,41 @@
+/* Some styles for the main container in which all of the below elements are stored. */
+#main-container {
+    align-items: start;              /* Specified that all elements should be aligned to the "start" of the container (the left in this case). */
+    display: flex;                   /* States that a "flex box" should be used to arrange the elements in this container. */
+    flex-direction: column;          /* Ensures that the elements in this container are arranged vertically in a column. */
+    justify-content: center;         /* Sets the vertical alignment of each element in this container to be center-focused. */
+}
+
+/* Some styles for the button on the page. */
+.btn {
+    background-color: #007bff;     /* The base background colour for the button on the page. */
+    border: none;                    /* Whether or not the button should have a visible border. */
+    border-radius: 5px;              /* The radius of the border around the button (this gives it rounded edges). */
+    color: white;                  /* The colour of the text within the button. */
+    cursor: pointer;                 /* The form that the mouse cursor should taken when it is inside the bounds of the button. */
+    padding: 10px 20px;              /* Some padding around the button (10px on the top and bottom, 20px on the left and right). */
+}
+
+/* An additional style for changing the colour of the button when the mouse hovers over it. */
+.btn:hover {
+    background-color: #0056b3;     /* The background of the button when the mouse hovers inside the bounds of it. */
+}
+
+/* Some styles for the large text in which the user will input the text that they wish to be analysed. */
+#text-input {
+    border-radius: 5px;              /* The radius of the large text box (this gives it rounded edges). */
+    height: 150px;                   /* The height of the large text box (normally, one would use a '%' value to give it an 'adaptive' height. */
+    margin-bottom: 10px;             /* Some margin at the bottom of the large text box. */
+    padding: 10px;                   /* Some padding around the large text box (10px on all sides). */
+    resize: none;                    /* Ensure that the text box cannot be resized. */
+    width: 20%;                      /* The width of the large text box (it should take up 100% of it's parent "element" or "container"). */
+}
+
+/* A container in which the result of the sentiment analysis will be displayed. */
+#result-container {
+    border: 1px solid #ccc;        /* A border around the container (1px in width, solid, and with a colour #ccc). */
+    border-radius: 5px;              /* The radius of the border around the container (this gives it rounded edges). */
+    margin: 10px 0;                  /* Some margin at the top and bottom of the container. */
+    padding: 10px;                   /* Some padding around the container (10px on all sides). */
+    width: 20%;                      /* The width of the container (it should take up 100% of it's parent "element" or "container"). */
+}
