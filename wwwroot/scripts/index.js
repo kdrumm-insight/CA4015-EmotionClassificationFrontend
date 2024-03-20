@@ -3,7 +3,7 @@
 function getSentimentAnalysis() {
     /* Convert the button on the page to a "loading button" by changing its text. */
     let analyzeButton = document.getElementById("analyze-btn");
-    analyzeButton.innerHTML = '<i id="loading-icon" class="fa fa-circle-o-notch fa-spin"></i>Analyzing Text...';
+    analyzeButton.innerHTML = 'Analyzing Text...';
     analyzeButton.setAttribute("disabled", true);
 
     /* Retrieve the text from the large text box, to be analysed. */
