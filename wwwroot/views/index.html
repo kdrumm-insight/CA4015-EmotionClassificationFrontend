@@ -4,19 +4,19 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CA4015 Sentiment Analyser</title>
+        <title>CA4015 Emotion Classifier</title>
         <script type="text/javascript" src="../../configuration/appsettings.js"></script>
         <script type="text/javascript" src="../scripts/index.js"></script>
         <link type="text/css" href="../styles/index.css" rel="stylesheet"/>
     </head>
     <body>
         <div id="main-container">
-            <h1>CA4015 Sentiment Analyser</h1>
-            <textarea id="text-input" placeholder="Enter in some text and click the button below to perform a sentiment analysis on it..."></textarea>
-            <button class="btn" id="analyze-btn" onclick="getSentimentAnalysis();">Analyze Text</button>
+            <h1>CA4015 Emotion Classifier</h1>
+            <textarea id="text-input" placeholder="Enter in some text and click the button below to find out what emotion is most present..."></textarea>
+            <button class="btn" id="classify-btn" onclick="getClassifiedEmotion();">Classify Text</button>
             <div id="result-container">
                 <p><b>Result:</b></p>
-                <p id="analysis-result"></p>
+                <p id="classification-result"></p>
             </div>
         </div>
     </body>

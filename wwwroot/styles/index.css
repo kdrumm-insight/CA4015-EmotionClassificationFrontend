@@ -31,7 +31,7 @@
     width: 20%;                      /* The width of the large text box (it should take up 100% of it's parent "element" or "container"). */
 }
 
-/* A container in which the result of the sentiment analysis will be displayed. */
+/* A container in which the result of the emotion classification will be displayed. */
 #result-container {
     border: 1px solid #ccc;        /* A border around the container (1px in width, solid, and with a colour #ccc). */
     border-radius: 5px;              /* The radius of the border around the container (this gives it rounded edges). */
